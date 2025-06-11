@@ -1,9 +1,9 @@
 from telethon.sync import TelegramClient
 from datetime import datetime, timedelta, timezone
+import config
 
-API_ID = "YOUR API_ID"
-API_HASH = 'YOUR HASH_API'
-session_name = 'session name (any)'
+API_HASH, API_ID = "YOUR API", "API"
+session_name = 'skittle'
 
 client = TelegramClient(session_name, API_ID, API_HASH)
 
